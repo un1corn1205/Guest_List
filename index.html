@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Guest List</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <h1>Guest List</h1>
+        <div class="row">
+            <input id="enter_name" placeholder="Enter Name">
+            <button type="button" onclick="get_list()">Add</button>
+            <div><b id="t1"></b></div>
+        </div>
+        <br><br><h1>Sorted Names</h1><br><br>
+        
+        <div style="border: 2px; border-color: #000000; border-style: solid;">
+            <button onclick="sorted_list()">Sorted List</button>
+            <div id="sorted_list"></div>
+        </div>
+        <br><br><h1>Search Names</h1><br><br>
+        
+        <div class="row" style="border: 2px; border-color:#000000; border-style: solid;">
+            <input id="search_name" placeholder="Search Name">
+            <button type="button" onclick="search()">Search</button>
+            <p id="p2"></p>
+        </div>
+    </body>
+</html>
